@@ -5,11 +5,125 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>LinkView</title>
+        <title>Card do Vinicius Silva Aragão</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous" />
+
     </head>
 
     <body>
-        <h1>Hello World!</h1>
+
+
+
+        <div class="scene">
+            <div class="card">
+                <div class="card__face card__face--front">
+
+                    <div class="inner">
+                        <div class="changeSide"><i class="fa fa-share front" aria-hidden="true"></i></div>
+                        <div class="topCard">
+
+                            <div class="photo"><img src="assets/person1.jpg"></div>
+                            <div class="titleAndSub">
+                                <div class="infos">
+                                    <h1 class="personName">Jonathan David</h1>
+                                    <h3 class="personProf">Designer Gráfico</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="midCard">
+
+                            <div class="midItemWrapper">
+                                <div class="midIcon"><i class="fa fa-phone" aria-hidden="true"></i>
+                                </div>
+                                <div class="midInfos"><span class="midInfoTitle">Telefone</span>
+                                    <span>11 9 5333-4444</span>
+                                </div>
+                            </div>
+                            <div class="midItemWrapper">
+                                <div class="midIcon"><i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="midInfos"><span class="midInfoTitle">Endereço de e-mail</span>
+                                    <span>david@example.com</span>
+                                </div>
+                            </div>
+                            <div class="midItemWrapper">
+                                <div class="midIcon"><i class="fas fa-link"></i>
+                                </div>
+                                <div class="midInfos"><span class="midInfoTitle">Website</span>
+                                    <span>www.davidexample.com</span>
+                                </div>
+                            </div>
+                            <a href="https://www.google.com.br/maps/place/Clapham,+Londres,+Reino+Unido/@51.4567347,-0.1568241,14z/data=!3m1!4b1!4m13!1m7!3m6!1s0x47d8a00baf21de75:0x52963a5addd52a99!2sLondres,+Reino+Unido!3b1!8m2!3d51.5072178!4d-0.1275862!3m4!1s0x4876043442c14ccb:0x5df20c102ecfb887!8m2!3d51.4556231!4d-0.1385871"
+                                target="_blank" rel="noopener noreferrer">
+                                <div class="midItemWrapper">
+                                    <div class="midIcon"><i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="midInfos"><span class="midInfoTitle">Endereço</span>
+                                        <span>123, Main Street, Your</span>
+                                        <span>City, Brazil, 00000-000</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="btnItem"><i class="fab fa-facebook-f"></i></div>
+                            <div class="btnItem"><i class="fab fa-instagram"></i></div>
+                            <div class="btnItem"> <i class="fab fa-pinterest-p"></i></i></div>
+                            <div class="btnItem"><i class="fab fa-behance"></i></i></div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card__face card__face--back">
+
+
+                    <div class="innerBack">
+                        <div class="changeSide"><i class="fa fa-share back" aria-hidden="true"></i></div>
+
+                        <div class="brand">
+                            <div class="brandInfo">
+                                <h1>WEBPRO</h1>
+                                <p>tagline here</p>
+                            </div>
+                        </div>
+
+                        <div class="qrCode"><img src="assets/qrcode.png"></div>
+
+
+
+                        <div class="backButtons">
+                            <div class="bioInfo">
+                                <h3>Bio</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum aperiam dolorem
+                                    delectus
+                                    optio eum deleniti quas perspiciatis labore impedit vitae sit, omnis odio cum nobis
+                                    voluptatem laudantium tempore ea sint.</p>
+                            </div>
+                            <div class="copyBtn" onclick="copyToClipBoard()"><i class="far fa-copy"></i> <span> Copiar
+                                </span>
+                                <div class="popup">
+                                    <span class="popuptext" id="myPopup">Copiado!</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <script src="main.js"></script>
     </body>
 
 </html>
