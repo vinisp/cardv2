@@ -92,7 +92,7 @@ a {
 .inner {
   width: 100%;
   height: 100%;
-  background-color: #f2f2f2;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -100,7 +100,6 @@ a {
 }
 
 .topCard {
-  background: #4865ab;
   width: 100%;
   height: 300px;
   border-radius: 15px 15px 0 0;
@@ -132,6 +131,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .infos h1 {
@@ -160,7 +160,7 @@ img {
   padding: 15px;
   gap: 15px;
   border-radius: 10px;
-  background: white;
+  background: #380052;
   cursor: pointer;
 }
 
@@ -202,10 +202,40 @@ img {
 
 .row {
   display: flex;
-  width: 90%;
-  justify-content: center;
+  width: 100%;
+  justify-content: space-evenly;
   gap: 15px;
   margin-top: 20px;
+  border-bottom: solid 1px silver;
+}
+
+.groupItems {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+
+  padding-bottom: 15px;
+}
+
+.btnAndText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0;
+}
+
+.saveBtn {
+  width: 150px;
+  height: 45px;
+  border: solid 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
 }
 
 .btnItem {
@@ -213,20 +243,26 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #4865ab;
+  background: 0;
   width: 62px;
   height: 60px;
   border-radius: 10px;
   cursor: pointer;
 }
+.btnItem img {
+  width: 62px;
+  height: 60px;
+}
 
-.btnItem p {
+.btnItem .btnItem p,
+.btnItem span {
   font-size: 8px;
+  color: black;
 }
 
 .btnItem i {
   text-align: center;
-  color: white;
+  color: #380052;
   font-size: 25px;
 }
 
