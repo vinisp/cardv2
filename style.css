@@ -371,6 +371,7 @@ img {
   height: 100%;
   background-image: url(./assets/backgroundCut.jpg);
   background-blend-mode: normal;
+  background-size: contain;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
