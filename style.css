@@ -186,7 +186,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .midItemWrapper {
@@ -198,6 +198,20 @@ img {
   background: #6a009b;
   color: white;
   cursor: pointer;
+  box-shadow: 0 6px 8px 1px rgba(0, 0, 0, 0.4);
+  transition: all 500ms ease;
+}
+
+.midItemWrapper:hover .midInfoTitle,
+.midItemWrapper:hover .midIcon i {
+  background-size: white;
+  color: #380052;
+}
+
+.midItemWrapper:hover {
+  background: white;
+  border: solid 1px #380052;
+  transform: translateY(-4px);
 }
 
 .midIcon {
@@ -260,13 +274,21 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  cursor: pointer;
   gap: 0;
+  border-radius: 15px;
+  padding: 5px;
+  transition: all 500ms ease;
 }
 
 .btnAndText:hover i,
 .btnAndText:hover span {
   color: #6a009b;
+}
+
+.btnAndText:hover {
+  box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.4);
+  transform: translateY(-10px);
 }
 
 .saveBtn {
@@ -278,11 +300,16 @@ img {
   justify-content: center;
   border-radius: 25px;
   transition: all 500ms ease;
+  cursor: pointer;
+  color: white;
+  background: #380052;
 }
 
 .saveBtn:hover {
   border: solid 2px #6a009b;
-  color: #6a009b;
+  color: white;
+  background: transparent;
+  color: #380052;
 }
 
 .btnItem {
