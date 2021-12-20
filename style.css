@@ -15,6 +15,15 @@ a {
   color: black;
 }
 
+.bgcard {
+  background-image: url("./assets/702860.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 260px;
+  border-radius: 15px 15px 0 0;
+}
+
 .backLayer {
   background: #6a009b;
   position: absolute;
@@ -28,7 +37,7 @@ a {
 
 .scene {
   width: 550px;
-  height: 720px;
+  height: 1040px;
   perspective: 900px;
   margin: 100px auto;
 }
@@ -93,6 +102,10 @@ a {
   top: 30px;
 }
 
+.changeSide {
+  color: black;
+}
+
 .front {
   color: white;
 }
@@ -111,11 +124,12 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  border-radius: 15px;
 }
 
 .topCard {
   width: 100%;
-  height: 300px;
+  height: 450px;
   border-radius: 15px 15px 0 0;
   display: flex;
   flex-direction: column;
@@ -128,11 +142,13 @@ a {
 }
 
 .photo {
-  width: 120px;
-  height: 120px;
+  width: 127px;
+  height: 127px;
   border-radius: 50%;
   position: absolute;
-  top: -65px;
+  top: 190px;
+  border: solid 4px white;
+  box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.4);
 }
 
 img {
@@ -148,12 +164,17 @@ img {
   width: 100%;
 }
 
+.infos {
+}
+
 .infos h1 {
-  margin: 0;
+  margin-top: 20px;
+  color: black;
 }
 
 .infos h3 {
   margin: 0 10px;
+  color: black;
   font-weight: 400;
   text-align: center;
   border: rgba(0, 0, 0, 0.4);
@@ -243,6 +264,11 @@ img {
   gap: 0;
 }
 
+.btnAndText:hover i,
+.btnAndText:hover span {
+  color: #6a009b;
+}
+
 .saveBtn {
   width: 150px;
   height: 45px;
@@ -251,6 +277,12 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 25px;
+  transition: all 500ms ease;
+}
+
+.saveBtn:hover {
+  border: solid 2px #6a009b;
+  color: #6a009b;
 }
 
 .btnItem {
