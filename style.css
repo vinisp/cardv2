@@ -388,6 +388,8 @@ img {
 
   background: white;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+  display: flex;
+  justify-content: center;
 }
 
 .backButtons {
@@ -397,7 +399,7 @@ img {
   flex-direction: column;
   color: white;
   background: #380052;
-  border-radius: 0 0 15px 15px;
+  border-radius: 0 0 7px 7px;
 }
 
 .bioInfo {
