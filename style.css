@@ -21,7 +21,7 @@ a {
   background-size: cover;
   width: 100%;
   height: 260px;
-  border-radius: 15px 15px 0 0;
+  border-radius: 7px 7px 0 0;
 }
 
 .backLayer {
@@ -91,8 +91,8 @@ a {
 
 .changeSide {
   cursor: pointer;
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
   border-radius: 50px;
   display: flex;
   justify-content: center;
@@ -102,8 +102,8 @@ a {
   top: 30px;
 }
 
-.changeSide {
-  color: black;
+.changeSide i {
+  font-size: 30px;
 }
 
 .front {
@@ -125,6 +125,7 @@ a {
   justify-content: flex-start;
   align-items: center;
   border-radius: 15px;
+  border: solid 7px black;
 }
 
 .topCard {
@@ -142,18 +143,21 @@ a {
 }
 
 .photo {
-  width: 127px;
-  height: 127px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   position: absolute;
-  top: 190px;
+  top: 170px;
   border: solid 4px white;
   box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  background: #380052;
 }
 
 img {
-  width: 120px;
-  height: 120px;
+  width: 90%;
+  height: 100%;
   border-radius: 50%;
 }
 
@@ -164,11 +168,8 @@ img {
   width: 100%;
 }
 
-.infos {
-}
-
 .infos h1 {
-  margin-top: 20px;
+  margin-top: 60px;
   color: black;
 }
 
@@ -269,15 +270,40 @@ img {
   padding-bottom: 15px;
 }
 
+.qrcodeBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 15px;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+.qrcodeBtn span {
+  text-align: center;
+}
+
+.qrcodeBtn:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
 .btnAndText {
+  height: 90px;
+  width: 90px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   gap: 0;
-  border-radius: 15px;
-  padding: 5px;
+  border-radius: 50%;
+  padding: 50px;
+
   transition: all 500ms ease;
 }
 
@@ -320,7 +346,7 @@ img {
   background: 0;
   width: 62px;
   height: 60px;
-  border-radius: 10px;
+  border-radius: 50%;
   cursor: pointer;
 }
 .btnItem img {
