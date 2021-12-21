@@ -640,6 +640,20 @@ img {
     cursor: pointer;
   }
 
+  .changeSide {
+    margin: 0;
+  }
+
+  .front {
+    left: 0;
+    display: none;
+  }
+
+  .purple {
+    z-index: 9999;
+    left: 90%;
+  }
+
   .btnAndText {
     width: 30px;
     height: 30px;
