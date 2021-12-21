@@ -14,6 +14,10 @@ a {
   justify-content: center;
   color: black;
 }
+li {
+  list-style: none;
+  margin-bottom: 5px;
+}
 
 .bgcard {
   background-image: url("./assets/background.jpg");
@@ -56,6 +60,14 @@ a {
   height: 100%;
   width: 100%;
   backface-visibility: hidden;
+}
+
+.card__face--back {
+  height: 127%;
+}
+
+.backButtons div span {
+  text-align: left;
 }
 
 .card__face--front,
@@ -639,7 +651,11 @@ img {
     transition: all 500ms ease;
     cursor: pointer;
   }
-
+  .midItemWrapper {
+    width: 90%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
   .changeSide {
     margin: 0;
   }
@@ -668,6 +684,18 @@ img {
     padding: 30px;
   }
 
+  .btnAndText div i {
+    font-size: 18px;
+  }
+
+  .btnAndText div img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .btnAndText span {
+    font-size: 1.4vh;
+  }
   .groupItems {
     width: 100%;
   }
@@ -676,7 +704,8 @@ img {
     border: solid 2px black;
   }
 
-  .bgcard {
+  .qrCode {
+    bottom: 72%;
   }
   .inner {
     border-radius: 14px;
@@ -689,5 +718,8 @@ img {
 
   .midCard {
     gap: 5px;
+  }
+  .midCard span {
+    text-align: center;
   }
 }
