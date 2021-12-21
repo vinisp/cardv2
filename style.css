@@ -19,6 +19,13 @@ li {
   margin-bottom: 5px;
 }
 
+ul {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-left: 32px;
+}
+
 .bgcard {
   background-image: url("./assets/background.jpg");
   background-repeat: no-repeat;
@@ -374,10 +381,6 @@ img {
   margin-top: 10px;
 }
 
-.btnAndText:hover i,
-.btnAndText:hover span {
-}
-
 .btnAndText:hover {
   box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.4);
   transform: translateY(-10px);
@@ -451,7 +454,7 @@ img {
   height: 120px;
 
   position: absolute;
-  bottom: 70%;
+  bottom: 62%;
 
   background: white;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
@@ -623,6 +626,10 @@ img {
     height: 1000px;
   }
 
+  .infos h1 {
+    margin-top: -10px;
+  }
+
   .changeSide {
     height: 18px;
     width: 18px;
@@ -718,6 +725,7 @@ img {
 
   .midCard {
     gap: 5px;
+    margin-top: -40px;
   }
   .midCard span {
     text-align: center;
