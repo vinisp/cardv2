@@ -97,11 +97,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 480px;
-  background: transparent;
-  position: absolute;
-  top: 20px;
-  left: 167px;
 }
 
 .changeSide i {
@@ -112,16 +107,21 @@ a {
   color: white;
 }
 
-.front,
-.back {
-  cursor: pointer;
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.purple {
+  position: absolute;
+  top: 2%;
+  left: -32%;
 }
-.back {
-  color: #380052;
+
+.purple i {
+  transform: scaleX(-1);
+  color: #fff;
+}
+
+.front {
+  position: absolute;
+  top: 2.5%;
+  left: 122%;
 }
 
 .inner {
