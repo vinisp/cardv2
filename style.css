@@ -654,6 +654,14 @@ img {
     left: 90%;
   }
 
+  .mudar {
+    color: #380052 !important;
+  }
+
+  .card__face--front {
+    height: 127%;
+  }
+
   .btnAndText {
     width: 30px;
     height: 30px;
