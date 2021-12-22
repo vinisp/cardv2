@@ -69,7 +69,8 @@ ul {
   backface-visibility: hidden;
 }
 
-.card__face--back {
+.card__face--back,
+.card__face--front {
   height: 127%;
 }
 
