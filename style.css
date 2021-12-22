@@ -183,7 +183,8 @@ ul {
   background: #1d1b1b;
 }
 
-img {
+.photo img {
+  width: 166px;
   border-radius: 50%;
 }
 
