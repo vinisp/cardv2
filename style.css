@@ -729,10 +729,11 @@ ul {
   .btnAndText div img {
     width: 25px;
     height: 25px;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
+    margin-top: -2px;
   }
   .siteText {
-    margin-top: -6px;
+    margin-top: -5px;
   }
 
   .btnAndText span {
