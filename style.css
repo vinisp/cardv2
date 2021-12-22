@@ -636,6 +636,10 @@ ul {
     height: 1000px;
   }
 
+  .headerMid {
+    margin: -35px 0 20px 0;
+  }
+
   .arrow-left,
   .arrow-right {
     margin: 0;
