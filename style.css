@@ -194,6 +194,19 @@ img {
   width: 100%;
 }
 
+.addressbook i {
+  font-size: 30px;
+}
+
+.plane i {
+  font-size: 25px;
+}
+
+.plane,
+.addressbook {
+  border: solid 2px black;
+}
+
 .infos h1 {
   margin-top: 90px;
   color: black;
@@ -359,13 +372,8 @@ img {
   cursor: pointer;
   gap: 0;
   border-radius: 50%;
-  padding: 50px;
 
   transition: all 500ms ease;
-}
-
-.btnAndText i {
-  font-size: 25px;
 }
 
 .btnAndText img {
@@ -376,10 +384,6 @@ img {
 .btnAndText span {
   text-align: center;
   font-size: 0.9rem;
-}
-
-.share {
-  margin-top: 10px;
 }
 
 .btnAndText:hover {
@@ -420,8 +424,8 @@ img {
   cursor: pointer;
 }
 .btnItem img {
-  width: 62px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
 }
 
 .btnItem .btnItem p,
@@ -432,7 +436,7 @@ img {
 
 .btnItem i {
   text-align: center;
-  color: #380052;
+  color: black;
   font-size: 25px;
 }
 
