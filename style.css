@@ -125,23 +125,23 @@ ul {
 
 .front i {
   color: white;
+  transform: scaleX(-1);
 }
 
 .purple {
   position: absolute;
   top: 2%;
-  left: -32%;
+  right: 4%;
 }
 
 .purple i {
-  transform: scaleX(-1);
-  color: #fff;
+  color: #380052;
 }
 
 .front {
   position: absolute;
   top: 2.5%;
-  left: 122%;
+  right: 4%;
 }
 
 .inner {
@@ -376,8 +376,8 @@ ul {
 }
 
 .btnAndText img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 .btnAndText span {
@@ -423,8 +423,8 @@ ul {
   cursor: pointer;
 }
 .btnItem img {
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
 }
 
 .btnItem .btnItem p,
@@ -636,6 +636,10 @@ ul {
     height: 1000px;
   }
 
+  .bgcard {
+    border-radius: 5px 5px 0 0;
+  }
+
   .arrow-left:hover,
   .arrow-right:hover {
     transform: translateX(0);
@@ -652,7 +656,6 @@ ul {
   }
 
   .changeSide .front {
-    font-size: 18px;
     color: white;
   }
 
@@ -682,22 +685,21 @@ ul {
     margin: 0;
   }
 
-  .front {
-    left: 0;
-    display: none;
-  }
-
-  .purple {
-    z-index: 9999;
-    left: 90%;
-  }
-
   .mudar {
     color: #380052 !important;
   }
 
   .card__face--front {
     height: 127%;
+  }
+
+  .purple {
+    right: 5%;
+  }
+
+  .front i {
+    font-size: 30px;
+    top: -50%;
   }
 
   .btnAndText {
