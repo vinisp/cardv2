@@ -626,6 +626,11 @@ img {
     height: 1000px;
   }
 
+  .arrow-left:hover,
+  .arrow-right:hover {
+    transform: translateX(0);
+  }
+
   .infos h1 {
     margin-top: -10px;
   }
@@ -660,8 +665,8 @@ img {
   }
   .midItemWrapper {
     width: 90%;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-top: 5px;
   }
   .changeSide {
     margin: 0;
