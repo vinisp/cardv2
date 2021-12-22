@@ -636,6 +636,11 @@ ul {
     height: 1000px;
   }
 
+  .arrow-left,
+  .arrow-right {
+    margin: 0;
+  }
+
   .bgcard {
     border-radius: 5px 5px 0 0;
   }
